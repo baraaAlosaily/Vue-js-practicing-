@@ -1,0 +1,8 @@
+$red:rgb(161, 209, 28);
+
+h1{
+    color: $red;
+    &:hover{
+        color: darken($color: $red, $amount: 25%);
+    }
+}
